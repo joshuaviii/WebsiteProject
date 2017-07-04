@@ -1,0 +1,186 @@
+@font-face {
+    font-family: FuturaLT-CondensedLight;
+    src: url('FuturaLT-CondensedLight.ttf')
+}
+
+@font-face {
+    font-family: UniversLTStd-LightUltraCn;
+    src: url('UniversLTStd-LightUltraCn.otf')
+}
+
+@font-face {
+    font-family: FuturaLT;
+    src: url('FuturaLT.ttf')
+}
+
+p {
+    font-family: FuturaLT;
+    font-size: 16px;
+}
+
+h1 {
+    font-family: UniversLTStd-LightUltraCn;
+    font-size: 120px;
+}
+
+#logo{
+    position:fixed;
+    display: inline-block;
+    padding: 0px;
+    margin-top: -40px;
+    margin-left:100px;
+    vertical-align:top;
+    z-index: 1001;
+}
+
+nav {
+    overflow: hidden;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    right: 8px;
+    width: 100%;
+    z-index:1000;
+}
+
+nav a {
+    font-family: FuturaLT-CondensedLight;
+    float: right;
+    display: block;
+    color: #121212;
+    text-align: center;
+    padding: 35px 40px 20px 40px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+nav a:hover {
+    background-color: #cdcdcd;
+    color: #121212;
+}
+
+/*.logo {
+    position: absolute;
+    float: left;
+    left: 10px;
+    top: 10px;
+    margin: 0px 15px 15px 50px;
+    border: 2px solid red;
+    /*temporary 
+}
+*/
+.container {
+    overflow: hidden;
+}
+
+.container .yellowContainer {
+    margin-top: 40px;
+    width: 100%;
+    min-width: 1530px;
+    height: 600px;
+    background-color: #F4CE3B;
+}
+
+.overview p {
+    margin-top: -60px;
+    padding: 12px;
+}
+
+.overview {
+    float:right;
+    width: 40%;
+    margin: 64px 550px 0px 0px;
+    /*border: 1px solid blue; */
+}
+
+.container .whiteContainer {
+    width: 100%;
+    min-width: 1530px;
+    height: 600px;
+    background-color: #FFFFFF;
+    /*border: 1px solid red;*/
+    /*temporary */
+}
+
+.whiteContainer img {
+    display: inline-block;
+    width: auto;
+    float: right;
+   /* border: 1px solid green; */
+}
+
+.community p {
+    margin-top: -60px;
+    padding: 12px;
+}
+
+.community {
+    float: left;
+    width: 40%;
+    margin: 64px 0px 0px 100px;
+    /* border: 1px solid blue; */
+}
+
+.container .blackContainer {
+    width: 100%;
+    min-width: 1530px;
+    height: 600px;
+    background-color: #121212;
+   /* border: 1px solid red; */
+    /*temporary */
+}
+
+.blackContainer img {
+    display: inline-block;
+    width: auto;
+    float: left;
+    margin-top:24px;
+    margin-left:24px;
+    /*border: 1px solid green;*/
+}
+
+
+.ecosystem p {
+    margin-top: -60px;
+    padding: 12px;
+    color: #ffffff;
+}
+
+.ecosystem h1 {
+    color: #ffffff;
+}
+
+.ecosystem {
+    float: right;
+    width: 40%;
+    margin: 64px 100px 0px 0px;
+   /* border: 1px solid blue;*/
+}
+
+.container .yellow2Container {
+    width: 100%;
+    min-width: 1530px;
+    height: 600px;
+    background-color: #F4CE3B;
+   /* border: 1px solid red;*/
+    /*temporary */
+}
+
+.yellow2Container img{
+    display: inline-block;
+    width: auto;
+    float: right;
+   /* border: 1px solid green; */
+}
+
+.industrial p {
+    margin-top: -60px;
+    padding: 12px;
+}
+
+.industrial {
+    float: left;
+    width: 40%;
+    margin: 64px 0px 0px 100px;
+    /*border: 1px solid blue; */
+}
